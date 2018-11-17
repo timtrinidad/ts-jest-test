@@ -1,0 +1,10 @@
+*.DS_Store
+node_modules
+dist
+coverage
+package-lock.json
+*.log
+
+# Intellij
+.idea
+*.iml
