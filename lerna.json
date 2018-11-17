@@ -1,0 +1,18 @@
+{
+  "lerna": "2.10.1",
+  "version": "independent",
+  "npmClient": "yarn",
+  "useWorkspaces": true,
+  "command": {
+    "publish": {
+      "conventionalCommits": true,
+      "exact": true,
+      "message": "release(all): publish",
+      "verbose": true,
+      "yes": true
+    }
+  },
+  "packages": [
+    "packages/*"
+  ]
+}
