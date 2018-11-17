@@ -1,4 +1,4 @@
-import * as React from 'react'
+import React from 'react'
 import TestComponent from 'src/TestComponent';
 import { shallow } from 'enzyme';
 
